@@ -22,52 +22,103 @@ body {
   margin: 1%;
 }
 
-.navigation-bar .nav-item button , i{
-    color:#ffb400 ;
+.navigation-bar .nav-item button,
+i {
+  color: #ffb400;
 }
 
 .navigation-bar .nav-item {
-    text-align: right;
-    font-size: medium;
+  text-align: right;
+  font-size: medium;
 }
 
-.navigation-bar .nav-item a{
-color: white !important;
+.navigation-bar .nav-item a {
+  color: white !important;
 }
 
-
-.navigation-bar .nav-item  :hover {
- color: #ffb400 !important;
+.navigation-bar .nav-item :hover {
+  color: #ffb400 !important;
 }
 
-.navigation-bar .nav-item button , i :hover{
-    color:#f8c859 !important ;
+.navigation-bar .nav-item button,
+i :hover {
+  color: #f8c859 !important ;
 }
 
-
-
-
-.navbar-dark .navbar-nav .active > .nav-link{
-    color:#ffb400 !important ;
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: #ffb400 !important ;
 }
-
 
 @media (max-width: 768px) {
-    .navigation-bar nav {
- 
-    }
-    .navigation-bar .navbar-brand {
-        font-size: small;
-    }
-    .navigation-bar .navbar-brand .nav-brand-text {
-        font-size: small;
-        margin: 1%;
-      }
+  .navigation-bar nav {
+  }
+  .navigation-bar .navbar-brand {
+    font-size: small;
+  }
+  .navigation-bar .navbar-brand .nav-brand-text {
+    font-size: small;
+    margin: 1%;
+  }
 
-
-    .navigation-bar .nav-item {
-        font-size: small;
-    }
+  .navigation-bar .nav-item {
+    font-size: small;
+  }
 }
 
 /*<!-- End Nav Bar -->*/
+
+/*<!-- Start Intro Section -->*/
+
+.intro-section {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/*<!-- End Intro Section -->*/
+
+/*<!-- Start About Section -->*/
+
+.about-section .card {
+  text-align: right;
+  border: none;
+  width: 100% !important;
+}
+
+.about-section .card .card-body {
+  margin-right: 5%;
+}
+
+.about-section .card .contact-card {
+  background-color: #ffb400;
+  border-radius: 10px;
+  width: auto;
+  color: white;
+}
+
+.about-section .card .contact-card a {
+  text-decoration: none;
+  color: white;
+}
+
+.about-section .card .contact-card ::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: auto;
+  height: 0;
+  border: 13px solid transparent;
+  border-top-color: #ffb400;
+  border-bottom: 0;
+  margin-left: -13px;
+  margin-bottom: -13px;
+}
+
+.about-section .card .other-card {
+  border-top: solid 3px black;
+}
+
+.about-section .card button a{
+    color: white;
+}
+/*<!-- End About Section -->*/
