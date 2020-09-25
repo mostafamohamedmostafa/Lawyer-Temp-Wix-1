@@ -32,6 +32,10 @@ i {
   font-size: medium;
 }
 
+.navigation-bar .dropdown-menu {
+  background-color: #2d2d2f;
+}
+
 .navigation-bar .nav-item a {
   color: white !important;
 }
@@ -118,7 +122,72 @@ i :hover {
   border-top: solid 3px black;
 }
 
-.about-section .card button a{
-    color: white;
+.about-section .card button a {
+  color: white;
 }
 /*<!-- End About Section -->*/
+
+/*<!-- Start News and Specailty Section -->*/
+.new-speacilty-section {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: right;
+}
+
+.new-speacilty-section .speacilty-card {
+  border-top: 3px solid #ffb400;
+}
+
+.new-speacilty-section .speacilty-card .card {
+  border: none;
+}
+
+.new-speacilty-section .speacilty-card h5 {
+  color: #ffb400;
+}
+
+.new-speacilty-section .speacilty-card .card li {
+  list-style: none;
+  line-height: 2rem;
+}
+
+.new-speacilty-section .news-card {
+  border-top: 3px solid black;
+}
+
+.new-speacilty-section .news-card .card {
+  border: none;
+}
+
+.new-speacilty-section .news-card .card-news-img {
+  margin: auto;
+}
+
+/*<!-- End News and Specailty Section -->*/
+
+@media (max-width: 768px) {
+  /*<!-- Start About Section -->*/
+
+  .about-section .card {
+    font-size: small;
+  }
+
+  /*<!-- End About Section -->*/
+
+  /*<!-- Start News and Specailty Section -->*/
+  .new-speacilty-section {
+    font-size: small;
+  }
+
+  .new-speacilty-section .speacilty-card {
+    font-size: small;
+  }
+
+  .new-speacilty-section .news-card {
+    font-size: small;
+  }
+
+  .new-speacilty-section .news-card .card {
+    font-size: small;
+  }
+}
