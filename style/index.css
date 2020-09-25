@@ -37,6 +37,11 @@ i {
   background-color: #2d2d2f;
 }
 
+.navigation-bar .dropdown-menu{
+    text-align: right;
+    font-size: small;
+}
+
 .navigation-bar .nav-item a {
   color: white !important;
 }
